@@ -1,0 +1,20 @@
+.fill-space {
+    flex: 1 1 auto;
+}
+
+.list-pontuacao {
+    font-family: Roboto,"Helvetica Neue",sans-serif;
+    padding: 24px;
+    background-color: white;
+}
+
+.list-pontuacao-title {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 14px;
+}
+.list-pontuacao-item {
+    padding: 5px;
+    color: rgba(0,0,0,.87);
+    border-top: thin solid rgba(0,0,0,0.4);
+}

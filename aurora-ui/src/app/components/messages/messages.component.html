@@ -1,0 +1,12 @@
+<div *ngIf="messageService.messages.length">
+        <h2>Mensagens</h2>
+        <button class="clear" (click)="messageService.clear()">Limpar</button>
+        <mat-expansion-panel *ngFor='let message of messageService.messages'>
+                <mat-expansion-panel-header>
+                        <mat-panel-title>
+                                        {{message.message}}
+                        </mat-panel-title>
+                </mat-expansion-panel-header>
+                {{message.details}}                                
+        </mat-expansion-panel>
+</div>

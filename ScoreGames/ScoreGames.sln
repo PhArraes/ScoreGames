@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2009
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ScoreGames.AuroraApi", "ScoreGames.AuroraApi\ScoreGames.AuroraApi.csproj", "{3D1BD338-7159-4D14-AFC6-6D593B5E6517}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ScoreGames.Domain", "ScoreGames.Domain\ScoreGames.Domain.csproj", "{71D6722F-75C6-4392-8028-F7E345F0DF55}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - UI", "0 - UI", "{DE0AFD07-9149-4F32-84EF-DA0453690A47}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - AppService", "1 - AppService", "{D80AD6B1-5262-429D-A513-8DDBAA59EA0C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Domain", "2 - Domain", "{98BE3855-8E59-4284-B7FB-8CDABC0CD1F5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ScoreGames.AppService", "ScoreGames.AppService\ScoreGames.AppService.csproj", "{AA7CD57F-455F-46FA-A200-9AA46A291216}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScoreGames.Domain.Tests", "ScoreGames.Domain.Tests\ScoreGames.Domain.Tests.csproj", "{865144DF-4213-4812-B438-F7423A7B53A3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3D1BD338-7159-4D14-AFC6-6D593B5E6517}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D1BD338-7159-4D14-AFC6-6D593B5E6517}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D1BD338-7159-4D14-AFC6-6D593B5E6517}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D1BD338-7159-4D14-AFC6-6D593B5E6517}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71D6722F-75C6-4392-8028-F7E345F0DF55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71D6722F-75C6-4392-8028-F7E345F0DF55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71D6722F-75C6-4392-8028-F7E345F0DF55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71D6722F-75C6-4392-8028-F7E345F0DF55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA7CD57F-455F-46FA-A200-9AA46A291216}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA7CD57F-455F-46FA-A200-9AA46A291216}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA7CD57F-455F-46FA-A200-9AA46A291216}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA7CD57F-455F-46FA-A200-9AA46A291216}.Release|Any CPU.Build.0 = Release|Any CPU
+		{865144DF-4213-4812-B438-F7423A7B53A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{865144DF-4213-4812-B438-F7423A7B53A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{865144DF-4213-4812-B438-F7423A7B53A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{865144DF-4213-4812-B438-F7423A7B53A3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3D1BD338-7159-4D14-AFC6-6D593B5E6517} = {DE0AFD07-9149-4F32-84EF-DA0453690A47}
+		{71D6722F-75C6-4392-8028-F7E345F0DF55} = {98BE3855-8E59-4284-B7FB-8CDABC0CD1F5}
+		{AA7CD57F-455F-46FA-A200-9AA46A291216} = {D80AD6B1-5262-429D-A513-8DDBAA59EA0C}
+		{865144DF-4213-4812-B438-F7423A7B53A3} = {98BE3855-8E59-4284-B7FB-8CDABC0CD1F5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6A15488D-251B-4742-86E4-F563E8BC64D4}
+	EndGlobalSection
+EndGlobal
